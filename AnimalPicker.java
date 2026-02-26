@@ -11,15 +11,20 @@ public class AnimalPicker {
             choice = scanner.nextLine();
 
             if (choice.equalsIgnoreCase("dog")) {
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("  __    __");
+                System.out.println("o-''))_____\\\\");
+                System.out.println("\"--__/ * * * )");
+                System.out.println("c_c__/-c____/");
                 break;  
             }
             else if (choice.equalsIgnoreCase("cat")) {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println(" /\\_/\\");
+                System.out.println("( o.o )");
+                System.out.println(" > ^ <");
                 break;  
             }
             else {
-                System.out.println("Error: Invalid option. Please enter 'dog' or 'cat'.");
+                System.out.println("Error: Invalid option. Please enter dog or cat.");
             }
         }
 
