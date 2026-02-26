@@ -9,10 +9,13 @@ public class AnimalPicker {
         String choice = scanner.nextLine();
 
         if (choice.equalsIgnoreCase("dog")) {
-            System.err.println("DOG ASCII ART HERE");
+            System.out.println("DOG ASCII ART HERE");
         }
         else if (choice.equalsIgnoreCase("cat")) {
-            System.err.println("CAT ASCII ART HERE");
+            System.out.println("CAT ASCII ART HERE");
+        }
+        else {
+            System.out.println("Error: Invalid Option");
         }
     }
 }
